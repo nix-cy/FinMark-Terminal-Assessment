@@ -1,0 +1,6 @@
+,Age,Transaction amount
+Q1,34.0,253.25
+Q3,57.0,724.225
+Lower bound,-0.5,-453.2125000000001
+Upper bound,91.5,1430.6875
+Outlier count,0.0,0.0

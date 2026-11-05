@@ -1,0 +1,91 @@
+{
+  "data_quality": {
+    "Demographics": {
+      "Raw shape": [
+        3200,
+        6
+      ],
+      "Clean shape": [
+        3000,
+        6
+      ],
+      "Exact duplicate rows before": 177,
+      "Duplicate business-key rows before": 200,
+      "Distinct conflicting business keys": 23,
+      "Duplicate business-key rows after": 0,
+      "Missing cells before": 594,
+      "Missing cells after": 0
+    },
+    "Transactions": {
+      "Raw shape": [
+        3200,
+        6
+      ],
+      "Clean shape": [
+        3000,
+        11
+      ],
+      "Exact duplicate rows before": 185,
+      "Duplicate business-key rows before": 200,
+      "Distinct conflicting business keys": 15,
+      "Duplicate business-key rows after": 0,
+      "Missing cells before": 603,
+      "Missing cells after": 311
+    },
+    "Social Media": {
+      "Raw shape": [
+        3200,
+        6
+      ],
+      "Clean shape": [
+        3000,
+        6
+      ],
+      "Exact duplicate rows before": 180,
+      "Duplicate business-key rows before": 200,
+      "Distinct conflicting business keys": 20,
+      "Duplicate business-key rows after": 0,
+      "Missing cells before": 640,
+      "Missing cells after": 0
+    }
+  },
+  "transaction_states": {
+    "Valid numeric amounts": 2971,
+    "Unresolved Free labels": 29,
+    "Preserved negative amounts": 34,
+    "Source-missing amounts imputed": 282,
+    "Genuine numeric zero amounts": 29
+  },
+  "category_frequencies": {
+    "IncomeLevel": {
+      "High": 935,
+      "Low": 918,
+      "Medium": 863,
+      "Unknown": 284
+    },
+    "ProductCategory": {
+      "Clothing": 568,
+      "Electronics": 561,
+      "Automotive": 538,
+      "Home & Garden": 529,
+      "Health & Beauty": 524,
+      "Unknown": 280
+    },
+    "Sentiment": {
+      "Positive": 898,
+      "Neutral": 870,
+      "Negative": 861,
+      "Unknown": 308,
+      "Very Negative": 32,
+      "Very Positive": 31
+    }
+  },
+  "temporal_peaks": {
+    "Transaction volume month": "2024-05-31",
+    "Transaction volume": 149,
+    "Average amount month": "2023-08-31",
+    "Average amount": 548.8428571428572,
+    "Social activity month": "2023-07-31",
+    "Social interaction count": 270
+  }
+}
