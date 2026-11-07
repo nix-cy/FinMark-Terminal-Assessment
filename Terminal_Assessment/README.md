@@ -19,7 +19,7 @@
 | `data/cleaned/` | Three finalized cleaned CSVs |
 | `figures/` | Seven exported PNG visualizations |
 | `evidence/` | JSON/CSV numerical evidence used by the report and presentation |
-| `presentation/` | Editable slide source, PowerPoint generator, and final presentation |
+| `presentation/` | Final team-authored Canva PowerPoint, corrected and validated against the project evidence |
 | `VALIDATION_REPORT.md` | Criterion-by-criterion final quality review |
 
 ## Data Provenance
@@ -33,7 +33,6 @@ From this folder:
 ```powershell
 python -m pip install -r requirements.txt
 python finmark_analysis.py
-python presentation/build_presentation.py
 ```
 
 Then open and run the notebooks from top to bottom with Python 3.12 or another compatible Python 3 environment. Both notebooks resolve paths whether VS Code starts the kernel in the repository root or this folder.
@@ -49,4 +48,4 @@ Then open and run the notebooks from top to bottom with Python 3.12 or another c
 
 ## Final Attribution Check
 
-The technical package is complete and validated. The verified Group 6 roster and official FinMark project URL are now included in the notebooks, documentation, and presentation materials.
+The technical package is complete and validated. The verified Group 6 roster and official FinMark project URL are included in the notebooks, documentation, and final Canva-authored presentation. The 15-slide PowerPoint was programmatically checked and rendered through Microsoft PowerPoint without errors.

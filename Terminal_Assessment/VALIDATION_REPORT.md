@@ -8,13 +8,13 @@
 | Resolve cleaning inconsistencies | Pass | Conflict retention is evidence-based; negative, `Free`, imputed, and zero transaction states remain distinct. |
 | Finalize team-approved files with clear names | Pass | Required notebook names and the required presentation title are used. |
 | Create `Terminal_Assessment` repository folder | Pass | All final resources are organized under this folder. |
-| Include notebooks and source code | Pass | Two final notebooks plus `finmark_analysis.py` and the presentation generator are included. |
+| Include notebooks and source code | Pass | Two final notebooks plus the standalone `finmark_analysis.py` validator are included. |
 | Include datasets | Pass | Three raw and three cleaned CSVs are organized under `data/`. |
 | Include visualizations | Pass | Seven standalone PNGs plus executed notebook figures are included. |
-| Include presentation materials | Pass | Editable Markdown slide source and generated PowerPoint are included. |
+| Include presentation materials | Pass | The team-authored Canva PowerPoint is included as the single authoritative presentation. |
 | Include supporting resources | Pass | README, requirements, evidence JSON/CSVs, and this validation report are included. |
 | Remove duplicates/outdated files from final folder | Pass | The folder contains one authoritative copy of each required dataset and final notebook. |
-| Ensure files open and contents are accessible | Pass | Python source has no diagnostics; both notebooks execute successfully; CSVs and images were programmatically validated. |
+| Ensure files open and contents are accessible | Pass | Python source has no diagnostics; both notebooks execute successfully; CSVs and images were programmatically validated; all 15 PowerPoint slides rendered without errors. |
 | Use meaningful commit message | Pass | Committed as `Finalize Milestone 3 terminal assessment package` and pushed to `origin/main`. |
 
 ## Quantitative Validation
@@ -40,3 +40,7 @@ Every non-identical business-key conflict has one row in the original 3,000-reco
 ## Confirmed Attribution and Source
 
 The verified Group 6 members are Danica Mae Tugare, Christian Cristobal, and Pg Amir Nur Mohammad Urbano. The official project website supplied by the team is [FinMark Corporation](https://sites.google.com/mmdc.mcl.edu.ph/finmarkcorp/home). The raw CSVs used in the analysis remain preserved unchanged under `data/raw/`.
+
+## Presentation Validation
+
+The team-authored Canva presentation was reconciled with the final evidence before inclusion. Unsupported negative-amount handling was corrected, the customer-level correlations were updated to 0.863 and 0.606, exact IQR outlier counts were added, the official roster and source were included, and a professor-feedback resolution slide was added. The final 15-slide deck opens and renders successfully in Microsoft PowerPoint with no clipping or overlap.
